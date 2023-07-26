@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 2rem;
+  background-color: black;
+}
+.footer__link:hover {
+  color: var(--main-color);
+}
+.footer > div {
+  color: var(--main-color);
+  font-size: 1.8rem;
+}

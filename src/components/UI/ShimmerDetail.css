@@ -1,0 +1,15 @@
+.card__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+}
+.card__detail {
+  width: 20rem;
+  height: 40rem;
+  background: rgb(232, 229, 229);
+}
+.content > div {
+  width: 12rem;
+  height: 2rem;
+  background: rgb(232, 229, 229);
+}

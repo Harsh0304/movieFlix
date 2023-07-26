@@ -1,0 +1,27 @@
+.overlay {
+  height: 100vh;
+}
+
+.model__wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(209, 209, 209, 0.671);
+}
+.watch {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close {
+  text-align: right;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.close:hover {
+  color: rgb(229, 224, 224);
+}
